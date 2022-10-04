@@ -24,9 +24,6 @@ class  App extends React.Component{
       
      function componentDidMount() {
        let compteur =0;
-        // Changing the state after 2 sec
-        // from the time when the component
-        // is rendered
         setInterval(() => {
           compteur++;
           this.setState({ timer:compteur });
